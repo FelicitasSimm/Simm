@@ -1,0 +1,696 @@
+/* --Style the CSS at the start-- */
+*{
+    box-sizing: border-box;
+}
+
+/* --Style the body of the HTML--*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+   }
+
+/* --Style Navbar-- */
+.navbar {
+    position:static;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    align-content: baseline;
+    border-color: whitesmoke;
+    border-width: 0px 0px 2px 0px;
+    padding-left: 25%;
+    margin-bottom: 7px;
+    z-index: 1;
+   }
+
+/* -- Style the logo -- */
+.logo {
+    margin-left: 20px;
+    float: left;
+    gap: 1.5rem;
+    size: 20%;
+    display: block;
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+  }
+
+/* --Style Links' items a (anchor) inside the navbar-- */
+  .navbar a {
+    float: left;
+    display: flex;
+    flex-flow: wrap;
+    gap: 1.5rem;
+    font-size: 16px;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;    
+  }
+
+/* --Style all the items inside the division-- */
+.navbar a div {
+    justify-content: center;
+  }
+
+/* -- Style the dropdown item --*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+/* --Style the pointer on the navbar links when it hoover on the items --*/
+ /* .navbar a:hover {
+  /*   background-color: rgb(180,231,240);
+ /* }
+
+/*  --Style when dropdown button when it hoover on the dropdowns-- */ 
+   .dropdown:hover .dropbtn {
+    background-color: rgb(180,231,240);
+  }
+
+/* --Style Drop Down Button-- */ 
+.dropbtn {
+    background-color: rgb(180, 231, 240);
+    color: rgb(11, 112, 112);
+    padding: 35px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; 
+  }
+
+/* --Style the dropdown button item-- */ 
+.dropdown .dropbtn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+/*  --Style the dropdown item--*/ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c9f8dcf5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+/*  --Style the dropdown item inside the disision--*/ 
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+/* --Style the hoover on the item inside the division --*/ 
+.dropdown-content a:hover {
+    background-color: rgb(180,231,240);
+  }
+
+/* --Style the item inside the division when there is a hoover--*/  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* -- End of Navbar styling-- */
+
+/*Style Heading*/
+#heading {
+    font-size: 24px;
+    color: rgb(11, 112, 112);
+    text-decoration: underline;
+    text-align: right;
+    padding-right: 120px;
+  }
+  
+
+/*  --Begin of style of 'grid_container1'-- */
+/* --Style grid container named 'grid_container1-1'-- */
+.grid_container1 {
+    display: grid;
+    align-content: top;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    background-color: white;
+}
+/* --Style the items in the sgrid container named 'grid_container1-1'--*/
+.grid_container1 > div {
+    text-align: center;
+    padding: 3%;
+  }
+
+/* --Style image item in the grid container anmed 'grid_container1'-- */
+.river {
+    width: 550px;
+    height: 550px;
+  }
+/* -- End style of 'grid_container1'-- */
+
+/* --Begin style 'grid_container'-- */
+
+/* CSS styles */
+a.contacting {
+    font: rgb(0, 0, 238);
+}
+
+/* --Style the second grid named'grid_container1-1'-- */
+  .grid_container1_1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    background-color: white;
+  }
+
+/* --Style the items in the sgrid container named 'grid_container1-1'--*/
+.grid_container1_1 > div {
+    text-align: center;
+    padding: 3%;
+  }
+
+/* --Style the image inside the grid container 'grid_container1-1'-- */
+.landscape1 {
+    width: 550px;
+    height: 550px;
+  }
+/* --End style 'grid_container1-1'-- */
+
+/* --Begin style grid named'portfolio1'-- */
+/* --Style grid container on the dropdown named 'Portfolio1'-- */
+.grid_container2 {
+    display: grid;
+    align-content: top;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    background-color: white;
+}
+
+/* --Style items on the grid container named 'Portfolio1'-- */
+.grid_container2 > div {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/* --Style 2 items of 'Portfolio1' on the dropdown Portfolio1--  */
+.portfolio1 {
+    text-align: center;
+    background-color: smokewhite;
+}
+/* --Style image items contained in dropdown named'Portfolio1'--*/
+.freedome {
+    width: 550px;
+    height: 550px;
+  }
+.skatingme {
+    width: 550px;
+    height: 550px;
+  }
+/*End style of grid named 'Portfolio1'-- */
+
+
+
+/*  --Begin style of grid named 'portfolio2'-- */
+/* --Style grid container */
+.grid_container3 {
+    display: grid;
+    align-content: top;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/* --Style items contained in the dropdown named 'Portfolio2'-- */
+.portfolio2 {
+    text-align: center;
+    background-color: smokewhite;
+}
+
+/* --Style 2 images' items contained in the dropdown named'Portfolio2'-- */
+.childlearn {
+    width: 550px;
+    height: 550px;
+}
+.balancingskate {
+    width: 550px;
+    height: 550px;
+}
+/* End style of grid named 'portfolio2'-- */
+
+/* --Begin style of grid named 'grid_container4'-- */
+/* -Style image item of contained on the left of the grid'-- */
+.messages {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    padding: 2px;
+    align-content: center;
+}
+
+/* --Style Contact Display on the query form-- */
+.grid_container4 {
+    display: grid;
+    align-content: center;
+    padding: 10x 10px;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    background-color:#BFFFE9;
+   
+    margin-top: 4%;
+    margin-bottom: 5px; 
+    margin-inline: 3px 0px;
+    font-size: 18px;
+}
+
+/* --Style Contact Items on the query forrm-- */
+.grid_container4 div {
+   text-align: center;
+   padding: 10px;
+   font-size: 18px;
+}
+
+/* --Style Message image on the query form-- */
+.item4_1 {
+    display: top;
+    align-content: center;
+}
+
+/* --Style the colour on the querry form-- */
+.dropline {
+    text-align: center;
+}
+
+/* Style the text description relating to image for the purpose of form*/
+.drop {
+    color: rgb(0, 0, 238);
+    white-space: nowrap;
+    margin: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/* --Style enquiry form header-- */
+.enquiry {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+/* --Style the items' format to appear on the query form-- */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2px;
+    border: 2px;
+    border: solid;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* --Style input format to appear ont the query form -- */
+input[type=submit] {
+    display: left;
+    background-color: rgb(180, 231, 240);
+    color: rgb(0, 0, 238);
+    font-weight: solid;
+    padding: 10px;
+    border: none;
+    margin-top: 1px;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --Style the the change of color when there's a hoover-- */
+input[type=submit] :hoover {
+    color: black;
+    background-color:rgb(169, 208, 142);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* --Style query form to looks like-- */
+.container4 {
+    border-radius: 2px;
+    background-color:rgb(169, 208, 142);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+}
+/* --Style of grid named 'container4'-- */
+
+/* --Begin syle of grid named 'grid_container5' --*/
+/* Style the grid container named 'grid_container5  Footer-- */
+.grid_container5 {
+    display: grid;
+    width: 100%; 
+    grid-template-columns:42.8% 14.8% 42.8%;
+    margin-top: 50px;
+    padding: 2px;  
+    gap: 5px;
+    background-color: aquamarine;
+    color: rgb(11, 112, 112);   
+}
+
+/* --Style items inside of the grid 'named grid_container5'-- */
+.grid_container5 > div {
+display: block;
+text-align: center;
+}
+/*  --Style the links appearing in the footer-- */
+.footerlinks {
+display: block;
+text-align: center;
+margin-top: 5px;
+padding-left: 5px;
+text-decoration: none;
+color: blue(0, 0, 238) ;
+}
+/* Style the linking code to be underline */
+.footerlinks .links {
+    color: rgb(0, 0, 238);
+    text-decoration: underline; /* Removes underline */
+}
+
+/* --Style the image item on the footer-- */
+.item5_3 {
+    align-content: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+    
+
+/*Style Images size*/
+.flipping1 {
+    width: 488px;
+    height: 488px;
+}
+/* Style Home - Grid Container1 Only*/
+.sunset1 {
+    width: 460px;
+    height: 460px;
+}
+
+/* Style the grid container*/
+.grid_container2_1 {
+    display: grid;
+    align-content: top;
+    grid-template-columns: 45% auto;
+    gap: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+/* Style the grid container*/
+.grid_container2_2 {
+    display: grid;
+    align-content: top;
+    grid-template-columns: 45% auto;
+    gap: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+/*Style the article body*/
+.margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* Style the article title*/
+.article_title {
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    text-align: center; 
+}
+
+/* Style the article heading*/
+.subheading {
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+    text-align: left; 
+}
+
+/* Style the article subparagrap*/
+.subparagraphs {
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-align: left; 
+  
+}
+
+/* Style the article list*/
+.articlelist {
+    margin: 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-align: left; 
+}
+
+/* Style the article text*/
+.allow {
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-align: left; 
+}
+
+/* Style the article heading*/
+.articlehead {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: left; 
+}
+
+/* Style the article body*/
+.article_body1 {
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    color: black;
+
+/*Style the botom section of the article*/ 
+}
+.marginbottom{
+     margin-top:3px;
+     margin-bottom: 10px;
+     color: rgb(11, 112, 112);
+     text-align: center;
+}
+
+/* Style an item named yellow_mug with specific width and height*/
+.yellow_mug {
+    width:200px;
+    height: 200pxpx;
+}
+
+/* Style an item named tonecap with specific width and height*/
+.tonecap {
+    width:200px;
+    height: 200pxpx;
+}
+
+/* Style an item named teeshirt with specific width and height*/
+.teeshirt {
+    width:200px;
+    height: 200pxpx;
+}
+
+/* Style an item named magnet with specific width and height*/
+.magnet {
+    width:200px;
+    height: 200pxpx;
+}
+
+/* Style an item named with specific width and height*/
+.flask {
+    width:200px;
+    height: 200pxpx;
+}
+
+/* Style the products' positioning */
+.products {
+    text-align: center;
+    color: rgb(0,0,0);
+    margin-top: 35px;
+    margin-bottom: 1px;
+}
+
+/* Style Product - Display Grid Container1 3 Divisions*/
+.grid_container3_2 {
+    display: grid;
+    background-color: #f2f2f2;
+    height: 350px;
+    align-content: centre;
+    grid-template-columns: 19.8% 19.8% 19.8% 19.8% 19.8%;
+    gap: 2px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+/*---------------------------*/
+/* Style the video container of the iframe*/
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+/* Style the video item in the iframe*/
+.video-item {
+    flex: 1 1 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Style the text in the iframe*/
+.video-item h2 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+/* Style the width and height positioning of the video in the iframe*/
+.video-iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+/* Style the video positioning in the iframe*/
+.video-iframe iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------------------------------------------*/
+/* Target the h1 with class header_1_desc inside .text-cell */
+.text-cell .header_1_desc {
+    /* Your styles for header_1_desc */
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Example color */
+    text-align: center;
+  }
+  
+  /* Target all paragraphs with class header_3_desc inside .text-cell */
+  .text-cell .header_3_desc {
+    /* Your styles for header_3_desc */
+    margin-bottom: 10px;
+    color: black; /* Example color */
+    text-align: center;
+  }
+  
+  .text-cell .link_form {
+    display: inline-block; /* Ensure the link behaves as a block element */
+    text-align: center; /* Center-align the text inside the link */
+    margin-top: 10px; /* Add margin top as needed */
+    margin-top: 10px; /* Adjust margin as needed */
+    width: 100%; /* Ensure the link takes full width available */
+  }
+  
+
+   /* Basic styling for demonstration */
+   table {
+    width: calc(100% - 40px); /* Reduce table width by 20px */
+    border-collapse: collapse;
+    margin-top: 5px; /* Margin at the top */
+    margin-bottom: 5px; /* Margin at the bottom */
+}
+
+/* Style the data cell web page 3 left hand side of the first video*/
+th, td {
+    padding: 0; /* Remove padding to ensure the iframe stretches to the edge */
+    border: 1px solid #ddd; /* Add borders to th and td */
+    text-align: left;
+}
+
+/* Style the framein web page 3 left hand side of the first video*/
+.iframe-cell {
+    width: 50%; 
+    position: relative; /* Positioning context for iframe and text */
+}
+
+/* Style cell in web page 3 left hand side of the first video*/
+.text-cell {
+    width: 50%; 
+    padding: 10px; 
+    line-height: 1.6; /* Line height approx to 4 lines */
+    border: none; /* Remove border specifically for .text-cell */
+}
+
+/* Style the descriptions in web page 3 left hand side of the first video*/
+.testimonials {
+    font-family: Arial, sans-serif; 
+    color: black; 
+    text-align: center; 
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar a {
+        padding: 8px;
+    }
+    .dropdown-content {
+        min-width: 100%;
+    }
+}
+
+
+
